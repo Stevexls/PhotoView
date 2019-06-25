@@ -5,7 +5,7 @@ version = "1.0.0"
 
 def siteUrl = 'https://github.com/Stevexls/PhotoView'
 def gitUrl = 'https://github.com/Stevexls/PhotoView.git'
-group = "com.stevexls"       // 数据仓库依赖第一部分
+group = "com.stevexls.widget"       // 数据仓库依赖第一部分
 
 install {
     repositories.mavenInstaller {
