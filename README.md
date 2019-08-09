@@ -5,7 +5,7 @@
 - Add the library to your module `build.gradle`
 ```gradle
 dependencies {
-	implementation 'com.stevexls.widget:photoview:1.0.0'
+	implementation 'com.stevexls.widget:photoview:1.0.1'
 }
 ```
 
