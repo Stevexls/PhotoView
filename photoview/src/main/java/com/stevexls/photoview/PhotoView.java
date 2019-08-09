@@ -345,7 +345,7 @@ public class PhotoView extends AppCompatImageView implements View.OnTouchListene
         mBaseMatrix.reset();
         float widthScale = viewWidth / drawableWidth;
         float heightScale = viewHeight / drawableHeight;
-        if (heightScale <= 0.5) {   // 增加对长图的支持
+        if (heightScale <= 0.4 && (drawableHeight / drawableWidth) > 2) {   // 增加对长图的支持
             float scale = Math.max(widthScale, heightScale);
             mBaseMatrix.postScale(scale, scale);
         } else if (mScaleType == ScaleType.CENTER) {
