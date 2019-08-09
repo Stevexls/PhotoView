@@ -26,6 +26,7 @@ public class ViewPagerActivity extends AppCompatActivity {
         setContentView(R.layout.activity_viewpager);
         viewPager = findViewById(R.id.viewpager);
         viewPager.setAdapter(new PhotoAdapter());
+        viewPager.setOffscreenPageLimit(1);
     }
 
     static class PhotoAdapter extends PagerAdapter {

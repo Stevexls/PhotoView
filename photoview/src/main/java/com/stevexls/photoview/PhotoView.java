@@ -306,7 +306,9 @@ public class PhotoView extends AppCompatImageView implements View.OnTouchListene
     @Override
     protected boolean setFrame(int l, int t, int r, int b) {
         boolean changed = super.setFrame(l, t, r, b);
-        update();
+        if (changed) {
+            update();
+        }
         return changed;
     }
 
