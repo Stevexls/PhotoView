@@ -29,7 +29,13 @@ public class ViewPagerActivity extends AppCompatActivity {
     }
 
     static class PhotoAdapter extends PagerAdapter {
-        private static final int[] sDrawables = {R.mipmap.test, R.mipmap.test, R.mipmap.bigimg, R.mipmap.test, R.mipmap.bigimg, R.mipmap.test,};
+        private static final int[] sDrawables = {R.mipmap.test, R.mipmap.test, R.mipmap.bigimg, R.mipmap.test, R.mipmap.bigimg, R.mipmap.test, R.mipmap.test, R.mipmap.bigimg, R.mipmap.test, R.mipmap.bigimg, R.mipmap.test
+                , R.mipmap.test, R.mipmap.bigimg, R.mipmap.test, R.mipmap.bigimg, R.mipmap.test, R.mipmap.test, R.mipmap.bigimg, R.mipmap.test,
+                R.mipmap.bigimg, R.mipmap.test, R.mipmap.test, R.mipmap.bigimg, R.mipmap.test, R.mipmap.bigimg, R.mipmap.test, R.mipmap.test,
+                R.mipmap.bigimg, R.mipmap.test, R.mipmap.bigimg, R.mipmap.test, R.mipmap.test, R.mipmap.bigimg, R.mipmap.test, R.mipmap.bigimg,
+                R.mipmap.test, R.mipmap.test, R.mipmap.bigimg, R.mipmap.test, R.mipmap.bigimg, R.mipmap.test, R.mipmap.test, R.mipmap.bigimg, R.mipmap.test,
+                R.mipmap.bigimg, R.mipmap.test, R.mipmap.test, R.mipmap.bigimg, R.mipmap.test, R.mipmap.bigimg, R.mipmap.test, R.mipmap.test, R.mipmap.bigimg,
+                R.mipmap.test, R.mipmap.bigimg, R.mipmap.test, R.mipmap.test, R.mipmap.bigimg, R.mipmap.test, R.mipmap.bigimg, R.mipmap.test};
 
         @Override
         public int getCount() {
